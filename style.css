@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", ubuntu;
+}
+
+.background{
+    background-image: url(./images/background1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2{
+    color: #fff;
+    font-size: 35px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+span{
+    color: #f9004d;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 15px 55px;
+    list-style-type: none;
+    font-size: 25x;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #f9004d;
+    transform: scale(1.2);
+}
+
+.btn{
+    background-color: #f9004d;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 55px;
+    border-radius: 30px;
+    transition: transform .5s;
+    font-size: 20px;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.Main{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+h4{
+    color:#fcfcfc;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+h1{
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 50px;
+}
+
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+
+}
+
+.Container-btn form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+input#mail{
+    display: inline-block;
+    width: 100%;
+    padding: 25px 250px 25px 10px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 15px;
+}
+
+input#button{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 35px;
+    background-color: #f9004d;
+    color: #fff;
+    box-shadow: 0px 0px 15px #858585;
+    right: 6px;
+    bottom: 12px;
+    font-size: 15px;
+}
+
+.background-color-sobre{
+    background-color: #191919;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.background-color-sobre img{
+    width: 430px;
+    height: auto;
+}
+
+.text-sobre{
+    width: 550px;
+}
+
+.Main-sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.text-sobre h2{
+    color: #fff;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.text-sobre h5{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text-sobre p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.text-sobre button{
+    background-color: #f9004d;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.text-sobre button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
